@@ -11,6 +11,11 @@ body {
 .color-green {
     color: #00ABAE;
 }
+
+.sub-title {
+    font-size: 40px;
+    /* letter-spacing: 1px; */
+}
 /*
 *[header]のスタイルシート
 */
@@ -28,3 +33,53 @@ body {
     letter-spacing: 1px;
 }
 
+/*
+*[main]のスタイルシート
+*/
+.block-main {
+    text-align: center;
+    margin: 100px 0;
+}
+
+/*
+*[profile]のスタイルシート
+*/
+
+.item-list {
+    width: 100%;
+    max-width: 348px;
+    margin: 0 auto;
+}
+
+.item-list b {
+    display: block;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 20px 0 30px;
+}
+
+.item-list p {
+    font-size: 14px;
+    line-height: normal;
+    text-align: left;
+}
+
+.icon-list {
+    /* display: flex;t6ytuu */
+    list-style: none;
+    width: 100%;
+    max-width: 247px;
+    margin: 30px auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-list li {
+    margin-right: 50px;
+}
+
+.icon-list li:last-child {
+    margin-right: 0;
+}
